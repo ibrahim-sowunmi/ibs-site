@@ -1,0 +1,47 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Ibrahim Sowunmi'
+author = 'Ibrahim Sowunmi'
+paginate = "10" # Number of posts per page
+disableKinds = ["taxonomy","taxonomyTerm"]
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "books"
+    name = "Books"
+    url = "/books"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "bookmarks"
+    name = "Bookmarks"
+    url = "/bookmarks"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "art"
+    name = "Art"
+    url = "/art/index.html"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "photosets"
+    name = "Photosets"
+    url = "/photosets"
+    weight = 20
+
+[Params]
+    subtitle = "Just another site" # Subtitle of your site
+    description = " Ibrahim Sowunmi's Personal blog about everything" # Description of your site
+    opengraph = true
+    readmore = true # Show "Read more" button in list if true
+    leftsidebar = false # Move sidebar to the left side if true
+    authorbox = true
+    post_navigation = true
+    postSections = ["post"]

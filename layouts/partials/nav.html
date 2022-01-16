@@ -1,0 +1,17 @@
+<div class="flex px-60 h-24 items-center justify-between  border-b-2 border-gray-100">
+  <div>
+    <a class=" tracking-wider text-3xl" href="{{ .Site.BaseURL }}">
+      {{ .Site.Title }}
+    </a>
+  </div>
+  <div class="flex ">
+    {{ range.Site.Menus.main }}
+    <div>
+      <a href="{{ .URL }}" class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+        {{ .Name }}
+      </a>
+    </div>
+    {{ end }}
+  </div>
+</div>
+  {{/*  the navbar using tailwind  */}}
