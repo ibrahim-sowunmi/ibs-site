@@ -10,6 +10,7 @@ quote: somet thiongs are saidsds
 
 Hello Reader,
 
+
 I've decided to start blogging 
  An absolutely fruitless endeavour akin to screaming in the wind, but anyone who knows me well knows that engaging in fruitless endeavours has become something of a passion of late. Especially as I’m about to enter the work world "for real for real", I don’t want to be a passionless bozo.
 

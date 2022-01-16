@@ -9,24 +9,24 @@ Grid Layout Styles
 */
 .gallery {
     overflow: hidden;
-    margin: 10px;
+    margin: 50px;
     max-width: 768px;
 }
 .gallery .box {
-    float: left;
-    position: relative;
     /* Default: 1 tile wide */
     width: 100%;
     padding-bottom: 100%; 
 }
+
 @media only screen and (min-width : 365px) {
     /* Tablet view: 2 tiles */
     .gallery .box {
-        width: 50%;
+        width: 100%;
         padding-bottom: 50%;
     }
 }
-@media only screen and (min-width : 480px) {
+
+@media only screen and (min-width : 640px) {
     /* Small desktop / ipad view: 3 tiles */
     .gallery .box {
         width: 33.3%;

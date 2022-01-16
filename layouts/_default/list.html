@@ -1,33 +1,31 @@
 {{ define "main" }}
 
 <div class="py-10">
-{{ .Content }}
-
 {{ range.Data.Pages }}
-<a href="{{ .RelPermalink }}">
-  <div class="px-60 py-2">
-    <div class=" border-b border-gray-200 flex text-gray-100 text-sm hover:text-black transition duration-150 border-b-4 border-transparent">
+<div class="">
+  <a href="{{ .RelPermalink }}">
+  </div>
+  <article class="mx-auto prose border-gray-100 border-b py-6">
+    <div class="flex justify-between item-center text-gray-300 text-sm hover:text-gray-700 transition duration-150 border-transparent">
       <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
         {{ .Date.Format "January 2, 2006" }}
       </time>
-      <div class="pl-24">
-        <p>Reading Time: {{ .ReadingTime }} Minutes </p>
+      <div>
+        Reading Time: {{ .ReadingTime }} Minutes
       </div>
     </div>
-    <div class="pb-2">
-      <h2 class="text-2xl font-semibold">
-        {{ .Title }}
-      </h2>
+    <div class="flex justify-between item-center">
+ 
     </div>
-    <div class="">
-      {{ .Summary }}
-    </div>
+    <h1>{{ .Title }}</h1>
+    {{ .Summary  }}
     <div class="pt-4">
       <button class="py-2 px-4 no-underline rounded-full border border-gray-200 transition duration-150 text-gray font-thin text-sm border-orange btn-primary hover:text-white hover:border-black hover:bg-black focus:outline-none  ">Continue reading -> </button>
     </div>
-  </div>
-  
+  </article>
 </a>
+</div>
+
 
 {{ end }}
 </div>
