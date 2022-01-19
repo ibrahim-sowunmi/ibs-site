@@ -45,3 +45,5 @@ disableKinds = ["taxonomy","taxonomyTerm"]
     authorbox = true
     post_navigation = true
     postSections = ["post"]
+
+mobilenav = ["js/mobile-nav.js"]
