@@ -3,6 +3,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 {{ $styles := resources.Get "/css/style.css" | postCSS }}
+{{ $js := resources.Get "js/main.js" }}
+
 
 {{ if .Site.IsServer }}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}"/>
