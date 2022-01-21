@@ -1,9 +1,41 @@
 {{define "main"}}
-<div class="lg:py-16 lg:px-60 ">
+<div class="">
   
   <article class="mx-auto prose">
     <h1>{{ .Title }}</h1>
     {{ .Content }}
+    <div>
+      {{ range where .Site.Pages.ByDate "Params.series" .Params.series }}
+        {{ if gt $.Date.Unix .Date.Unix }}
+          {{ $.Scratch.Set "previous" .Permalink }}
+        {{ end }}
+      {{ end }}
+      {{ range where .Site.Pages.ByDate.Reverse "Params.series" .Params.series }}
+        {{ if lt $.Date.Unix .Date.Unix }}
+          {{ $.Scratch.Set "next" .Permalink }}
+        {{ end }}
+      {{ end }}
+      <ul class="actions pagination">
+        <li>
+          <a href="{{ if $.Scratch.Get "previous" }}{{ $.Scratch.Get "previous" }} {{ end }}" class="{{ if not ($.Scratch.Get "previous") }}disabled {{ end }}button big previous">
+            <div class="pt-4">
+              <button class="w-1/6 py-2 px-4 no-underline rounded-full border border-gray-200 transition duration-150 text-gray font-thin text-sm border-orange btn-primary hover:text-white hover:border-black hover:bg-black focus:outline-none  ">
+                Previous</button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="{{ if $.Scratch.Get "next" }}{{ $.Scratch.Get "next" }} {{ end }}" class="{{ if not ($.Scratch.Get "next") }}disabled {{ end }}button big next">
+            <div class="pt-4">
+              <button class="w-1/6 py-2 px-4 no-underline rounded-full border border-gray-200 transition duration-150 text-gray font-thin text-sm border-orange btn-primary hover:text-white hover:border-black hover:bg-black focus:outline-none  ">
+                Next 
+              </button>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    
   </article>
 </div>
 

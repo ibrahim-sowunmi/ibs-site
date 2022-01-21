@@ -2,11 +2,10 @@
 <html lang="{{ .Language.Lang }}">
 <head>
     {{ partial "head.html" . }}
-    <script src="/js/mobile-nav.js"></script>
 </head>
-<body>
+<body class="px-2 lg:py-6 lg:px-60">
     {{ partial "nav.html" . }}
-    <div class="px-2 lg:py-6 lg:px-60">
+    <div >
         {{ block "main" . }}{{ end }}
     </div>
 <!-- {{ partial "footer.html" . }} -->

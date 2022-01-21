@@ -1,0 +1,126 @@
+<!doctype html><html lang=en>
+<head>
+<meta http-equiv=content-type content="text/html" charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<link rel=stylesheet href="/css/style.min.fb6521a2f1a40f87de3d3b6135ab06ea13fcc842ce5880a1de7936f660ba1d8b.css" integrity="sha256-+2UhovGkD4fePTthNasG6hP8yELOWICh3nk29mC6HYs=">
+<script src=/js/mobile-nav.js></script>
+</head>
+<body>
+<nav class="bg-white shadow-lg">
+<div class="mx-auto prose py-6">
+<div class="flex justify-between">
+<div class="not-prose flex space-x-7">
+<a class="tracking-wider text-3xl" href=/>
+Ibrahim Sowunmi
+</a>
+</div>
+<div class="not-prose hidden md:flex items-center space-x-1">
+<div>
+<a href=/posts class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+Posts
+</a>
+</div>
+<div>
+<a href=/art/index.html class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+Art
+</a>
+</div>
+<div>
+<a href=/bookmarks class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+Bookmarks
+</a>
+</div>
+<div>
+<a href=/books class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+Books
+</a>
+</div>
+<div>
+<a href=/photosets class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+Photosets
+</a>
+</div>
+</div>
+<div class="not-prose md:hidden flex items-center">
+<button class="outline-none menu-button"><svg class="w-6 h-6 text-gray-500" x-show="! showMenu" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentcolor"><path d="m4 6h16M4 12h16M4 18h16"><path/>
+</button>
+</div>
+<div class="not-prose hidden mobile-menu">
+<ul>
+<li class=active>
+<a href=/posts class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+Posts
+</a>
+</li>
+<li class=active>
+<a href=/art/index.html class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+Art
+</a>
+</li>
+<li class=active>
+<a href=/bookmarks class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+Bookmarks
+</a>
+</li>
+<li class=active>
+<a href=/books class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+Books
+</a>
+</li>
+<li class=active>
+<a href=/photosets class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+Photosets
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+<script>const btn=document.querySelector('button.menu-button'),menu=document.querySelector(".mobile-menu");btn.addEventListener("click",()=>{menu.classList.toggle("hidden")})</script>
+<script src=/js/mobile-nav.js></script>
+<div class="px-2 lg:py-6 lg:px-60">
+<div class="lg:py-16 lg:px-60">
+<article class="mx-auto prose">
+<h1>Prose</h1>
+<h2 id=a-test-with-tailwind-prose-classes>A Test with Tailwind Prose Classes</h2>
+<p>With the new <a href=https://tailwindcss.com/docs/typography-plugin>@tailwindcss/typography</a> module I can add prose modifiers that will render to the output HTML. This allows you to style HTML tags individually with i.e. <code>prose-h*:text-color-*00</code></p>
+<h1 id=this-is-a-h1-header>this is a H1 header</h1>
+<h2 id=this-is-a-h2-header>this is a H2 header</h2>
+<h3 id=this-is-a-h3-header>this is a H3 header</h3>
+<h4 id=this-is-a-h4-header>this is a H4 header</h4>
+<p>You can change link colors too and define hover with <code>prose prose-a:text-pink-700 hover:prose-a:text-cyan-700</code> - example:
+<a href=https://gohugo.io>gohugo.io</a></p>
+<h5 id=note-that-in-standard-prose-code-snippets-show-the--for-some-reason-so-in-standard-prose-you-get>Note that in standard prose code snippets show the ` for some reason. So in standard prose you get:</h5>
+<p>`<code>&lt;code>Something&lt;/code></code>`</p>
+<p>But I want want:</p>
+<p><code>&lt;code>Something&lt;/code></code></p>
+<p>So I modified the <code>tailwind.config.js</code> to:</p>
+<pre><code>module.exports = {
+content: ['./layouts/**/*.html'],
+theme: {
+    extend: {
+        typography: {
+            DEFAULT: {
+                css: {
+                    &quot;code::before&quot;: {content: ''},
+                    &quot;code::after&quot;: {content: ''}
+                }
+            }
+        }
+    }
+},
+plugins: [
+    require('@tailwindcss/typography'),
+],
+}
+</code></pre>
+<p>Remove those extra lines you want the `<code>ticks</code>`. Tailwind uses them on their website.</p>
+<p>Click for more about: <a href=https://tailwindcss.com/docs/typography-plugin>@tailwindcss/typography</a></p>
+<h3 id=-the-end->~~ The End ~~</h3>
+</article>
+</div>
+</div>
+</body>
+</html>

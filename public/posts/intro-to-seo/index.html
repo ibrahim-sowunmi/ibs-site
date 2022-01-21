@@ -1,0 +1,116 @@
+<!doctype html><html lang=en>
+<head>
+<meta http-equiv=content-type content="text/html" charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<link rel=stylesheet href="/css/style.min.fb6521a2f1a40f87de3d3b6135ab06ea13fcc842ce5880a1de7936f660ba1d8b.css" integrity="sha256-+2UhovGkD4fePTthNasG6hP8yELOWICh3nk29mC6HYs=">
+<script src=/js/mobile-nav.js></script>
+</head>
+<body>
+<nav class="bg-white shadow-lg">
+<div class="mx-auto prose py-6">
+<div class="flex justify-between">
+<div class="not-prose flex space-x-7">
+<a class="tracking-wider text-3xl" href=/>
+Ibrahim Sowunmi
+</a>
+</div>
+<div class="not-prose hidden md:flex items-center space-x-1">
+<div>
+<a href=/posts class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+Posts
+</a>
+</div>
+<div>
+<a href=/art/index.html class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+Art
+</a>
+</div>
+<div>
+<a href=/bookmarks class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+Bookmarks
+</a>
+</div>
+<div>
+<a href=/books class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+Books
+</a>
+</div>
+<div>
+<a href=/photosets class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+Photosets
+</a>
+</div>
+</div>
+<div class="not-prose md:hidden flex items-center">
+<button class="outline-none menu-button"><svg class="w-6 h-6 text-gray-500" x-show="! showMenu" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentcolor"><path d="m4 6h16M4 12h16M4 18h16"><path/>
+</button>
+</div>
+<div class="not-prose hidden mobile-menu">
+<ul>
+<li class=active>
+<a href=/posts class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+Posts
+</a>
+</li>
+<li class=active>
+<a href=/art/index.html class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+Art
+</a>
+</li>
+<li class=active>
+<a href=/bookmarks class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+Bookmarks
+</a>
+</li>
+<li class=active>
+<a href=/books class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+Books
+</a>
+</li>
+<li class=active>
+<a href=/photosets class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+Photosets
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+<script>const btn=document.querySelector('button.menu-button'),menu=document.querySelector(".mobile-menu");btn.addEventListener("click",()=>{menu.classList.toggle("hidden")})</script>
+<script src=/js/mobile-nav.js></script>
+<div class="px-2 lg:py-6 lg:px-60">
+<div class="lg:py-16 lg:px-60">
+<article class="mx-auto prose">
+<h1>My first foray into SEO</h1>
+<p>Hello Reader,</p>
+<p>I have a problem. After building this website I wanted it to be google’able. I want someone to be able type my name and that very first link to be my personal site.</p>
+<p>ibrahim sowunmi seo ranking
+As it currently stands, I don’t even come up in the first 10 links and my link actually comes up on the second bloody page! (95% of traffic is on the first page)</p>
+<p>Google has a very intelligent algorithm (googlebot) that trawls and indexes the whole of the light web (the part of the web accessible by google without authentication)! We want this algorithm to place my website with a higher ranking. Please, Serg & Larry!</p>
+<p>How do I fix this? SEO. “Search engine optimization”, improving my site to increase its visibility to the algorithm. Awesome, so how do I improve this? I wasn’t really sure. So I googled tools to measure the SEO-ability of my site</p>
+<p>ibrahim sowunmi lighthouse score first time
+Higher than I expected but still pretty low</p>
+<p>Google lighthouse, was one of the first I came across. Surprising, the website performed pretty well. I got a 92 for SEO? So, this tool clearly sucks. But, alas, I&rsquo;m lazy and it&rsquo;s the best I&rsquo;ve got 😔</p>
+<p>My site it static. So, I can’t use any server-side rendering (no server). Client-side rendering and prerendering (sometimes uses a server, idk?) are my only options. I’ve never thought about SEO before in all honesty, so it was in interesting search. Learning about those 3 terms in the context of SEO.</p>
+<p>So how will I attempt to do this?</p>
+<ol>
+<li>
+<p>Prerender with react-snap. Initially I added a react helmet to all my components briefly outlining their function. React helmet allows you to set metadata (title, author, description) for my react components. Then I thought about the way SPA (Single page web apps) are loaded (sometimes multiple components at once) and figured something wasn’t right (multiple heads at once???). After sometime spent researching I realised if I’m not doing SSR (Server side rendering) then there isn’t much point to react-helmet. So prerendering with react-snap it is!</p>
+</li>
+<li>
+<p>Quality backlinks. The idea for PageRank — Google’s early ranking algorithm — stemmed from Einstein. Larry Page and Sergei Brin were students at Stanford, and they noticed how often scientific studies referred to famous papers, such as the theory of relativity. These references acted almost like a vote — the more your work was referenced the more important it must be. If they downloaded every scientific paper and looked at the references, they could theoretically decide which papers were the most important, and rank them.</p>
+</li>
+</ol>
+<p>They realized that because of links, the Internet could be analysed and ranked in a similar way, except instead of using references they could use links. So, they set about attempting to “download” (or crawl) the entire Internet, figuring out which sites were linked to the most. The sites with the most links were, theoretically, the best sites. And if you did a search for “university,” they could look at the pages that talked about “university” and rank them. Pretty cool story.</p>
+<p>So, I pasted my URL perfectly into LinkedIn, Github & Medium. Fingers crossed.</p>
+<p>3)I thought the name of your domain was relevant but I was very wrong unfortunately&mldr; The name of your domain has zero effect on SEO ranking. To ensure quality rises to the top rather than matching domains. Dammit!</p>
+<p>ibrahim sowunmi lighthouse sail test 2</p>
+<p>Runnng the test again locally absolutely bombed performance (last test was on AWS) but accessibility and SEO are way up.</p>
+<p>If googleing “Ibrahim Sowunmi” Doesn’t have a much higher result after the next google bot indexing, then my SPA SEO woes will have to be on hold until, next year.Click here to see how close I am to being SEO&rsquo;d!</p>
+</article>
+</div>
+</div>
+</body>
+</html>
