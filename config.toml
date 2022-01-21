@@ -5,6 +5,7 @@ title = 'Ibrahim Sowunmi'
 author = 'Ibrahim Sowunmi'
 paginate = "10" # Number of posts per page
 disableKinds = ["taxonomy","taxonomyTerm"]
+theme = ["hugo-flex", "hugo-shortcode-gallery"]
 
 [menu]
   [[menu.main]]
@@ -46,5 +47,7 @@ disableKinds = ["taxonomy","taxonomyTerm"]
     authorbox = true
     post_navigation = true
     postSections = ["post"]
+
+theme = ["hugo-shortcode-gallery"]
 
 mobilenav = ["js/mobile-nav.js"]
