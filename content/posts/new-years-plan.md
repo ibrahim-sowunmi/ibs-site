@@ -10,7 +10,7 @@ summary: A list of things I'll be focusing on in the upcoming year. I usually se
 
 Writing up a plan for things I want to accomplish over the year of 2022. Divided into sections
 
- 
+---
 
 ## Physical
 
@@ -30,6 +30,8 @@ Or any other contact sport. Starting this again in Ireland. I’ve gone to one s
 
 One session a week. Gym body for the ladies and that.
 
+---
+
 ## Career
 
 ### 4X Salesforce Certified
@@ -41,11 +43,15 @@ One session a week. Gym body for the ladies and that.
 
 - If I don’t do this, someone give me a bell. Mental health will be a shambles. Even if I sound like I’m good haha.
 
+---
+
 ## Social
 
-\-    Keep contact with people
+\-    Keep in contact with friends & family
 
 > “Relationships are an investment from your end as much as other peoples” – Therapist
+
+---
 
 ## Mental 
 
@@ -58,6 +64,10 @@ I have no clue when this became a thing. It certainly wasn’t prior to universi
 This is the most important thing on this list by far.
 
 ### B1 level in a Second Language
+
+I did spanish for 3 months then fell of before. Second try.
+
+---
 
 ## Financial
 
@@ -73,21 +83,44 @@ This is a crazy high turnover industry that seems a few years of evolution every
 
  I am young. As a percentage of my lifetime income the money I’m earning now (will hopefully) shouldn’t be too much money. I intend to splurge for 2022 as this year has placed me within a network in a location that allows me to do more this year with my money and to get some experience that will be a pain in the ass to purchase. I want a year where I have fun. I have my entirely life to be frugal and (although 1 blip of a year) I have been most of the time. This year I should have enough capital to be relatively frugal whilst having a decent time.
 
-\-    Spend frugally (No more 3X takeaway nights in a week)
+### Spend more frugally (No more 3X takeaway nights in a week)
 
-Spiritual
+This is gonna be hard. Deliveroo has me in a chokehold.
 
-\-    
+---
 
-Community
+## Community
 
-\-    Become engaged with a volunteering community
+### Become engaged with a volunteering community
 
-o  Regularly engage in some form of outreach. It doesn’t matter where it stems from. For the past few months, I have been mentoring two kids and it has been enjoyable. I would like to increase my engagement but finding a community is difficult. You would think I’m this day and age and you could pop onto google type volunteering and the algorithm delivers a cornucopia of companies gagging for your almighty input. But alas it’s not that easy. There’s company outreach which is cool but doing something separate to that would also be cool. If you have or know of anything in London/Dublin and think I may be able to help. Please do not hesitate to reach out.  
+Regularly engage in some form of outreach. It doesn’t matter where it stems from. For the past few months, I have been mentoring two kids and it has been enjoyable. I would like to increase my engagement but finding a community is difficult. You would think I’m this day and age and you could pop onto google type volunteering and the algorithm delivers a cornucopia of companies desperate for your help, but apparently not😂. There’s company outreach which is cool but doing something separate to that would also be cool. 
 
-Artistic
+> If you have or know of anything in London/Dublin and think I may be able to help. Please do not hesitate to reach out.  
 
-\-    Create photosets for my site
+---
+
+## Artistic
+
+### Photosets 
+
+Get adobe lightroom. Travel to places. Take photos. Edit photos. Upload as a finished photoset with a story!
+
+Places planned
+
+- [x] Marrakesh, Morroco 🕌
+- [ ] Paris, France - Booked 🇫🇷
+- [ ] Munich, Germany - Booked 🇩🇪
+- [ ] Marrakesh Round2, Morroco - Sisters Wedding 🎉🥳
+- [ ] Oslo, Norway  
+- [ ] Somewhere South, Sweden
+- [ ] Milan, Italy (Maybe)
+- [ ] Dubai, Saudi Arabia (Maybe)
+
+### My website
+
+Currently looks alright. I'm proud of it. Going to need a lot of work to become what I envision though. Pumped to work on it.
+
+> Will check in on FY23, if I've done all of this succesfully. It will have been a great year.
 
  
 

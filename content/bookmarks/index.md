@@ -7,9 +7,4 @@ description: A test with @tailwindcss/typography & Prose
 type: "bookmarks"
 ---
 
-<div>
-
-</div>
-<script src="../../static/js/bookmarks.js">
-
-</script>
+There is no content here

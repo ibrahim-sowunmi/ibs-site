@@ -6,6 +6,8 @@ language: en
 description: The OG blog post and the beginning for ibrahimsowunmi.com
 ---
 
+---
+
 I have a problem. After building this website I wanted it to be google’able. I want someone to be able type my name and that very first link to be my personal site. As it currently stands, I don’t even come up in the first 10 links and my link actually comes up on the second bloody page! (95% of traffic is on the first page).
 
 {{< figure src="https://github.com/ibrahim-sowunmi/personal-site/blob/main/src/assets/blog/blog2/blog2-1.png?raw=true" alt="My site being SEO'd on google">}}
@@ -20,6 +22,8 @@ How do I fix this? SEO. “Search engine optimization”, improving my site to i
 Google lighthouse, was one of the first I came across. Surprising, the website performed pretty well. I got a 92 for SEO? So, this tool clearly sucks. But, alas, I'm lazy and it's the best I've got 😔
 
 My site it static. So, I can’t use any server-side rendering (no server). Client-side rendering and prerendering (sometimes uses a server, idk?) are my only options. I’ve never thought about SEO before in all honesty, so it was in interesting search. Learning about those 3 terms in the context of SEO.
+
+---
 
 #### So how will I attempt to do this? 
 
