@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "/"
 relativeURLs = "True"
 languageCode = 'en-us'
 title = 'Ibrahim Sowunmi'
@@ -9,45 +9,41 @@ theme = ["hugo-flex", "hugo-shortcode-gallery"]
 timeout = 1600000 
 bookmarksJS = ["js/bookmarks.js"]
 
-[Params]
-    subtitle = "Just another site" # Subtitle of your site
-    description = " Ibrahim Sowunmi's Personal blog about everything" # Description of your site
-    opengraph = true
-    readmore = true # Show "Read more" button in list if true
-    leftsidebar = false # Move sidebar to the left side if true
-    authorbox = true
-    post_navigation = true
-    postSections = ["post"]
 
 [menu]
   [[menu.main]]
+    name = "Homepage"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
     identifier = "posts"
     name = "Posts"
-    url = "posts/"
+    url = "/posts"
     weight = 10
 
   [[menu.main]]
     identifier = "books"
     name = "Books"
-    url = "books/"
+    url = "/books"
     weight = 20
 
   [[menu.main]]
     identifier = "bookmarks"
     name = "Bookmarks"
-    url = "bookmarks/"
+    url = "/bookmarks"
     weight = 20
 
   [[menu.main]]
     identifier = "art"
     name = "Art"
-    url = "art/"
+    url = "/art"
     weight = 20
 
   [[menu.main]]
     identifier = "photosets"
     name = "Photosets"
-    url = "photosets/"
+    url = "/photosets"
     weight = 20
 
 [sitemap]
