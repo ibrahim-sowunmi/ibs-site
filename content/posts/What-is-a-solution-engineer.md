@@ -1,12 +1,56 @@
 ---
-title: "What is a solution engineer"
-date: 2022-01-22T11:10:36+08:00
-draft: true
+title: "What is a Solution Engineer?"
+date: 2021-11-12T11:10:36+08:00
+draft: false
 language: en
-description: The OG blog post and the beginning for ibrahimsowunmi.com
+description: Post describing what the Solution engineer job title means and what the job role entails.
 
 ---
 
+I remember when I received the referral for this role. Final year of my undergraduate and shooting out applications like a gun slinger in a spaghetti western. Solution Engineer (SE). Yeah, it's got engineer in the title, let's go.
+
+First misconception. This is not an engineering role, this is a sales role. One with a technical skew, but this is definitely not traditional engineering. You are primary in sales. You are a Solution Engineer.
+
+### What is a Solution Engineer?
+
+The role differs from company to company but I'll attempt to make this write up fairly neutral.
+
+A Solution Engineer. Sometimes called:
+
+- Sales/Presales Engineer
+- Sales/Solutions Consultant
+- Solutions Architect
+
+The U.S. Bureau of Labor Statistics (BLS) defines what a Sales/Solutions Engineer does: “Sales engineers sell complex scientific and technological products or services to businesses."[^1]
+
+### What do they do?
+
+An SE is someone who is at the intersect of product, strategy and operations. They are in "Technical" Sales. They help potential customers understand, from a technical perspective, how the company's (The SEs) product can fit into their company needs. This means taking a bag of tools (Product, Software, Services), and coming up with solution to real business problems.
+
+If you're familiar with hackathons[^2] it's a product specific hackathon centered around certain use cases, in essence.  If the term hackathon is intimidating it is anything but. SEs don't have to be particularly technical. It varies from company to company and even within companies, their's a technical spectrum.
+
+### Day in the life?
+
+Work alongside a salesperson to determine business challenges. Talk to the customer confirming challenges and teasing out any other pain points. Then create a story (powerpoint slides) focused around providing value to your customer (with your companies product being the conveniently placed solution) with a bespoke solution (demonstration).
+
+### How do they compare with SWE?
+
+You talk to clients. In some cases you travel (considerably less after covid I'm presuming). 
+
+### Skills needed for the job?
+
+You need to be a solid communicator. Able to effectively listen to a customers requirements, build a complex solution and simply communication it back to the customer. 
+
+### Don't you have to be a bussin technical programmer?
+
+At some companies the average SE is more technically adept than the average SWE (Software Engineer). At others they do literally ZERO coding and you provide L1 level Tech support. You will probably know from the interview what to expect.
+
+All in all, I think it's a pretty nice role to end up in.
+
+Short clips that reminds me of the job.
+
+{{< youtube id="BKorP55Aqvg" title="Apparently the job is a little like this" >}}
 
 
-If you’ve been following this blog for a while you’ve seen I’ve added and removed a fair few number of posts. One of the topics I’ve wrote about was in intelligence. Liquid IQ, Crystal IQ, Brain specialisations, Cultural differences. There’s a lot that could potentially be discussed around intelligence. For me these things all play a role and people, especially young people, and dumb people. Overuse intelligence. As people we’re addicted to labelling, it’s how we navigate the world and we do it compulsively. This obsession with labelling is a whole other thing but one of the things we like to do is label people as smart or dumb. Usually in those two distinct buckets with a small grey area in between. If someone is articulate, knowledgeable about certain areas, gets good grades, earns a lot of money, went to/or worked at a well respected institution we instantly assume they’re intelligent. That is very much so not the case. I’m sure there’s a correlation but we if we were to sit down and map these things in a chart. I’m sure someone has somewhere and if you find something please let me know. It would paint a very different narrative. I talk to a family member at times and he has this deeply saddening self belief that he’s stupid. It’s frustrating to witness and it’s also self perpetuating. One of the best things he can do to “become more intelligent”, is to feign intelligence. Think of life as a video game where you have an intelligence stat, what can you do to raise that stat. That liquid intelligence that I mentioned previously, some people have that, their memory’s are great, mental maths is fantastic, able to easily visual complex 3D structures mentally. Some people have that. In my opinion those skips can be learnt to appear as good at if not better than 95% of people. That’s what I find frustrating. The fact that thinking like that about intelligence makes you stupider! Almost more so than anything else. If you suffered from really poor memory, like living life in a constant haze of retrograde amnesia. Then sure, I admit you may have a tough time. On the other hand if you’re a neuronormative individual then attacking that probably intelligently is completely within your grasp. If you’re suffering from some ailment or really young, then fair enough. 
+[^1]: [US Bureau on SEs](https://www.bls.gov/ooh/sales/sales-engineers.htm)
+[^2]: [What is a Hackathon](https://en.wikipedia.org/wiki/Hackathon)
