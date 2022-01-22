@@ -1,7 +1,7 @@
 ---
 title: "Who are you from a neurological perspective"
 date: 2021-01-10T11:10:36+08:00
-draft: false
+draft: true
 language: en
 description: The OG blog post and the beginning for ibrahimsowunmi.com
 ---

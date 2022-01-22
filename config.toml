@@ -9,6 +9,16 @@ theme = ["hugo-flex", "hugo-shortcode-gallery"]
 timeout = 1600000 
 bookmarksJS = ["js/bookmarks.js"]
 
+[Params]
+    subtitle = "Just another site" # Subtitle of your site
+    description = " Ibrahim Sowunmi's Personal blog about everything" # Description of your site
+    opengraph = true
+    readmore = true # Show "Read more" button in list if true
+    leftsidebar = false # Move sidebar to the left side if true
+    authorbox = true
+    post_navigation = true
+    postSections = ["post"]
+
 [menu]
   [[menu.main]]
     identifier = "posts"
@@ -40,13 +50,7 @@ bookmarksJS = ["js/bookmarks.js"]
     url = "/photosets"
     weight = 20
 
-[Params]
-    subtitle = "Just another site" # Subtitle of your site
-    description = " Ibrahim Sowunmi's Personal blog about everything" # Description of your site
-    opengraph = true
-    readmore = true # Show "Read more" button in list if true
-    leftsidebar = false # Move sidebar to the left side if true
-    authorbox = true
-    post_navigation = true
-    postSections = ["post"]
-
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
