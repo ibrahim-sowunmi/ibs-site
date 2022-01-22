@@ -23,31 +23,31 @@ bookmarksJS = ["js/bookmarks.js"]
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
-    url = "/posts"
+    url = "posts/"
     weight = 10
 
   [[menu.main]]
     identifier = "books"
     name = "Books"
-    url = "/books"
+    url = "books/"
     weight = 20
 
   [[menu.main]]
     identifier = "bookmarks"
     name = "Bookmarks"
-    url = "/bookmarks"
+    url = "bookmarks/"
     weight = 20
 
   [[menu.main]]
     identifier = "art"
     name = "Art"
-    url = "/art/index.html"
+    url = "art/"
     weight = 20
 
   [[menu.main]]
     identifier = "photosets"
     name = "Photosets"
-    url = "/photosets"
+    url = "photosets/"
     weight = 20
 
 [sitemap]
