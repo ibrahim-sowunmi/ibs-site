@@ -12,11 +12,6 @@ bookmarksJS = ["js/bookmarks.js"]
 
 [menu]
   [[menu.main]]
-    name = "Homepage"
-    url = "/"
-    weight = 10
-
-  [[menu.main]]
     identifier = "posts"
     name = "Posts"
     url = "/posts"
