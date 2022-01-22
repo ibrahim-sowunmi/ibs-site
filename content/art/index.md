@@ -14,7 +14,7 @@ type: "art"
 > Click on the button below to see all images on legacy site. New image gallery uses image gallery component
 {{< /article >}}
 
-[MORE STUFF CLICK HERE]("https://ibrahimsowunmi.com/art")
+[MORE STUFF CLICK HERE](https://ibrahimsowunmi.com/art)
 
 
 

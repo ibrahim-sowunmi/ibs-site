@@ -1,0 +1,6 @@
+<span class="inline-flex self-center not-prose h-4 w-4 top-[4px] relative" >
+    {{- $fname:=print "fontawesome/" . ".svg" -}}
+    {{- $path:="<path" -}}
+    {{- $fill:="<path fill=\"currentColor\"" -}}
+    {{ replace (readFile $fname) $path $fill | safeHTML }}
+</span>

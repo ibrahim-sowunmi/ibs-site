@@ -27,19 +27,19 @@ The U.S. Bureau of Labor Statistics (BLS) defines what a Sales/Solutions Enginee
 
 An SE is someone who is at the intersect of product, strategy and operations. They are in "Technical" Sales. They help potential customers understand, from a technical perspective, how the company's (The SEs) product can fit into their company needs. This means taking a bag of tools (Product, Software, Services), and coming up with solution to real business problems.
 
-If you're familiar with hackathons[^2] it's a product specific hackathon centered around certain use cases, in essence.  If the term hackathon is intimidating it is anything but. SEs don't have to be particularly technical. It varies from company to company and even within companies, their's a technical spectrum.
+If you're familiar with hackathons[^2] it's a product specific hackathon centered around certain use cases, in essence.  If the term hackathon is intimidating it is anything but. SEs don't have to be particularly technical. It varies from company to company and even within companies, there's a technical spectrum.
 
 ### Day in the life?
 
-Work alongside a salesperson to determine business challenges. Talk to the customer confirming challenges and teasing out any other pain points. Then create a story (powerpoint slides) focused around providing value to your customer (with your companies product being the conveniently placed solution) with a bespoke solution (demonstration).
+Work alongside a salesperson to determine business challenges. Talk to the customer confirming challenges and teasing out any other pain points. Then create a story (powerpoint slides) focused around providing value to your customer (with your company's product being the conveniently placed solution) with a bespoke solution (demonstration).
 
 ### How do they compare with SWE?
 
-You talk to clients. In some cases you travel (considerably less after covid I'm presuming). 
+You talk to clients. In some cases you travel (considerably less after covid I'm presuming). It's like wearing the project managers manager badge and developer badge at the same time. 
 
 ### Skills needed for the job?
 
-You need to be a solid communicator. Able to effectively listen to a customers requirements, build a complex solution and simply communication it back to the customer. 
+You need to be a solid communicator. Able to actively listen to customers requirements, build a complex solution and simply commmunicated those same requirements back to the customer in a language that they understand and your audience will vary greatly. 
 
 ### Don't you have to be a bussin technical programmer?
 
