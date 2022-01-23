@@ -71,25 +71,6 @@ button.addEventListener('click', () => {
 
 </script>  */}}
 
-
-{{/*  <div class="flex px-60 h-24 items-center justify-between  border-b-2 border-gray-100">
-  <div>
-    <a class=" tracking-wider text-3xl" href="{{ .Site.BaseURL }}">
-      {{ .Site.Title }}
-    </a>
-  </div>
-  <div class="flex ">
-    {{ range.Site.Menus.main }}
-    <div>
-      <a href="{{ .URL }}" class="m-2 p-1 text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
-        {{ .Name }}
-      </a>
-    </div>
-    {{ end }}
-  </div>
-</div>  */}}
-  {{/*  the navbar using tailwind  */}}
-
 <div 
   x-data="{navOpen: false, scrolledFromTop: false}"
   x-init="window.pageYOffset >= 50 ? scrolledFromTop = true : scrolledFromTop = false"
@@ -106,7 +87,6 @@ button.addEventListener('click', () => {
      border-b-2 
      border-gray-100
      flex
-     text-center
      justify-between
      items-center
      px-4 
@@ -150,7 +130,7 @@ button.addEventListener('click', () => {
            transition
            duration-300
            translate-x-full
-           md:relative md:flex md:space-x-10 md:min-h-0 md:px-0 md:py-0 md:space-y-0 md:translate-x-0
+           md:relative md:flex md:space-x-10 md:min-h-0 md:pr-12 md:py-0 md:space-y-0 md:translate-x-0
         "
         :class="{'translate-x-full': !navOpen}"
         :class="{'translate-x-0': navOpen}"
