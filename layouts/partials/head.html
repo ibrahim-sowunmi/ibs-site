@@ -4,9 +4,16 @@
 <meta name="keywords" content="{{ if .Params.Keywords }}{{ delimit .Params.Keywords ", " }}{{ end }}">
 <meta name="description" content="{{ if .Params.Description }}{{ trim .Params.Description "\n" }}{{else if .Site.Params.Description}}{{ trim .Site.Params.Description "\n"}}{{ end }}">
 
+<!-- Alpine Plugins -->
+<script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+ 
+<!-- Alpine Core -->
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 {{ $styles := resources.Get "/css/style.css" | postCSS }}
-{{ $js := resources.Get "js/main.js" }}
-
+{{- $js := resources.Get "/js/main.js" | js.Build -}}
+{{- if hugo.IsProduction }}
+  {{ $js = $js | minify | fingerprint }}
+{{ end -}}
 
 {{ if .Site.IsServer }}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}"/>

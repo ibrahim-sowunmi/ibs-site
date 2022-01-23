@@ -3,11 +3,11 @@
 <head>
     {{ partial "head.html" . }}
 </head>
-<body class="px-2 lg:py-6 lg:px-60">
+<body>
     {{ partial "nav.html" . }}
-    <div >
+    <div class="px-2 py-24 lg:px-60">
         {{ block "main" . }}{{ end }}
     </div>
-<!-- {{ partial "footer.html" . }} -->
+{{ partial "footer.html" . }}
 </body>
 </html>

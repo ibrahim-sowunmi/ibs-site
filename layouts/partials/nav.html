@@ -1,4 +1,4 @@
-<nav
+{{/*  <nav
 class="
   flex flex-wrap
   items-center
@@ -12,8 +12,10 @@ class="
   sticky top-0
   prose
   border-b-2 border-gray-100
-  z-50
+  z-20
 "
+:class="{ 'bg-black' : !atTop }"
+@scroll.window="atTop = (window.pageYOffset > 40) ? false : true"
 >
 
 <div class="not-prose w-full text-center pt-4 flex items-center justify-between">
@@ -56,6 +58,8 @@ class="
   </ul>
 </div>
 </nav>
+</div>
+
 <script>
   const button = document.querySelector('#menu-button');
 const menu = document.querySelector('#menu');
@@ -65,8 +69,7 @@ button.addEventListener('click', () => {
   menu.classList.toggle('hidden');
 });
 
-</script>
-
+</script>  */}}
 
 
 {{/*  <div class="flex px-60 h-24 items-center justify-between  border-b-2 border-gray-100">
@@ -86,3 +89,82 @@ button.addEventListener('click', () => {
   </div>
 </div>  */}}
   {{/*  the navbar using tailwind  */}}
+
+<div 
+  x-data="{navOpen: false, scrolledFromTop: false}"
+  x-init="window.pageYOffset >= 50 ? scrolledFromTop = true : scrolledFromTop = false"
+  @scroll.window="window.pageYOffset >= 50 ? scrolledFromTop = true : scrolledFromTop = false"
+  :class="{
+    'overflow-hidden': navOpen,
+    'overflow-scroll': !navOpen
+  }">
+  <header
+  class="
+     fixed
+     w-full
+     bg-white
+     border-b-2 
+     border-gray-100
+     flex
+     text-center
+     justify-between
+     items-center
+     px-4 
+     md:px-12
+     transition-all
+     duration-200
+     h-24
+     z-20
+  "
+  :class="{'h-22': !scrolledFromTop, 'h-10': scrolledFromTop}"
+>
+  <a 
+  class="transform origin-left transition duration-200 md:w-full tracking-wider text-3xl" href="{{ .Site.BaseURL }}"
+  :class="{'scale-100': !scrolledFromTop, 'scale-75': scrolledFromTop}">
+    {{ .Site.Title }}
+  </a>
+  <nav>
+     <button class="md:hidden" @click="navOpen = !navOpen">
+        <svg
+           xmlns="http://www.w3.org/2000/svg"
+           class="h-8 w-8 text-black"
+           fill="none"
+           viewBox="0 0 24 24"
+           stroke="currentColor"
+        >
+           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+     </button>
+     <ul
+        class="
+           fixed
+           left-0
+           right-0
+           min-h-screen
+           px-4
+           pt-8
+           space-y-4
+           bg-white
+           text-black
+           transform
+           transition
+           duration-300
+           translate-x-full
+           md:relative md:flex md:space-x-10 md:min-h-0 md:px-0 md:py-0 md:space-y-0 md:translate-x-0
+        "
+        :class="{'translate-x-full': !navOpen}"
+        :class="{'translate-x-0': navOpen}"
+     >
+     {{ range.Site.Menus.main }}
+     <li>
+       <a href="{{ .URL }}" 
+       @click="navOpen = false"
+       class="md:p-1 block text-center text-gray-500 hover:text-black transition duration-150 border-b-4 border-transparent hover:border-black">
+         {{ .Name }}
+       </a>
+     </li>
+     {{ end }}
+     </ul>
+  </nav>
+</header>
+</div>
