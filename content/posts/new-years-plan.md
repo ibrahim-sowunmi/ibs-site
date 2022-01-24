@@ -105,7 +105,7 @@ Regularly engage in some form of outreach. It doesn’t matter where it stems fr
 
 Get adobe lightroom. Travel to places. Take photos. Edit photos. Upload as a finished photoset with a story!
 
-Places planned
+<!-- Places planned
 
 - [x] Marrakesh, Morroco 🕌
 - [ ] Paris, France - Booked 🇫🇷
@@ -114,7 +114,7 @@ Places planned
 - [ ] Oslo, Norway  
 - [ ] Somewhere South, Sweden
 - [ ] Milan, Italy (Maybe)
-- [ ] Dubai, Saudi Arabia (Maybe)
+- [ ] Dubai, Saudi Arabia (Maybe) -->
 
 ### My website
 
