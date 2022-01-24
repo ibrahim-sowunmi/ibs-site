@@ -19,7 +19,7 @@ bookmarksJS = ["js/bookmarks.js"]
 
   [[menu.main]]
     identifier = "books"
-    name = "reading"
+    name = "Reading"
     url = "/books"
     weight = 20
 
