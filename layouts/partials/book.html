@@ -1,0 +1,33 @@
+<div x-data="{ expanded: false }">
+    <!-- card -->
+    <div 
+    @click="expanded = ! expanded"
+    class="rounded-md shadow-xs hover:border-black hover:text-black hover:bg-gray-100 focus:outline-none">
+      <div class="flex m-2 ">
+        <div class="flex-col items-center ">
+          <img class="min-w-[104px] min-h-[159px] max-w-[104px] max-h-[159px]" src="{{ .bookImage }}" alt="">
+        </div>
+        <div class="w-2/3 top-0 pl-4 bg-grey-100 flex-col items-center">
+          <h1 class="font-base text-gray-700 text-base">{{.bookTitle}}</h1>
+          <p class="font-extralight text-[10px]">by {{.bookAuthor}}</p>
+        </div>
+      </div>
+    </div>
+    <div 
+    x-show="expanded"
+    x-collapse
+    class="prose m-2"
+    >    
+        <p>
+            {{.bookReview}}
+        </p>
+        <a rel="noreferrer"
+        target="_blank" href="{{ .bookUrl }}">
+            <div class="pt-4">
+                <button class="py-2 px-4 no-underline rounded-full border border-gray-200 transition duration-150 text-gray font-thin text-sm border-orange btn-primary hover:text-white hover:border-black hover:bg-black focus:outline-none  "> Link </button>
+              </div>
+        </a>
+        
+    </div>
+    
+  </div>

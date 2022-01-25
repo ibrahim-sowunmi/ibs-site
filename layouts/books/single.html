@@ -1,78 +1,81 @@
 {{define "main"}}
 
-<div class="">
-<div class="">
-<h1 class="text-2xl">
-  {{ .Title }}
-</h1>
-<div class="text-2xl">
-  {{ .Content }}
+<div class="prose items-center justify-center flex w-full ">
+  <a rel="noreferrer"
+        target="_blank" href="https://ibrahimsowunmi.com/content">
+            <div class="pt-4">
+                <button class="py-2 px-4 no-underline rounded-full border border-gray-200 transition duration-150 text-gray font-thin text-sm border-orange btn-primary hover:text-white hover:border-black hover:bg-black focus:outline-none  "> Link to legacy site</button>
+              </div>
+        </a>
+  
 </div>
+<div class="m-8 prose items-center justify-center flex w-full ">
+  Currently reading The origins of political order by Francis Fukuyama
 </div>
-<div class="mx-auto">
-  {{/*  {{ .Content }}  */}}
-  <h1>Modal</h1>
-  <div x-data="{ isOpen: false }">
-    <button 
-    class="bg-blue-700 text-white px-4 py-3 mt-4 mb-12 rounded"
-    @click="isOpen = true
-    $nextTick($refs.modalCloseButton.focus())"
-    >
-      Launch demo modal
-    </button>
-    <div  
-      class="mx-auto absolute top-0 left-0 w-full h-full flex items-center shadow-lg overflow-y-auto z-50"
-      style="background-color: rgba(0, 0, 0, .5)"
-      x-show="isOpen"
-      >
-    <div class="container mx-auto h-full w-full rounded p-4 mt-2 overflow-y-auto">
-      <div class="bg-white h-full w-full rounded pt-4 pb-8 px-8"
-      @click.outside="isOpen = false"
-      >
-        <div class="flex justify-end">
-          <button 
-          class="cursor-pointer bg-transparent border-0 float-right"
-          @click="isOpen = false"          
-          x-ref="modalCloseButton"
-          >
-            {{ partial "fontawesome.html" "times" }}
-          </button>
-        </div>
-        <div class="border-b pt-4 border-grey-200"></div>
-        <div class="mt-6">
-          <h1 class="text-2xl font-bold">Modal Title</h1>
-          <p class="text-gray-700 text-base">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis
-            eaque, exercitationem praesentium nihil commodi soluta cumque, iste doloremque.
-          </p>
-        </div>
-      </div>
-    </div>
-    </div>
-  </div>
+<h1 class="underline text-base pt-12 text-center">Recently Read</h1>
+<div class="container grid grid-cols-1 md:grid-cols-2 md:gap-12 mt-16">
+  <!-- card data, expanded alpine module -->
+  {{ partial "book.html"
+   (dict "bookTitle" "The Hitchhiker's Guide to the Galaxy"
+    "bookAuthor" "Douglas Adams"
+    "bookReview" "Seconds before the Earth is demolished to make way for a galactic freeway, Arthur Dent is plucked off the planet by his friend Ford Prefect, a researcher for the revised edition of the The Hitch Hiker's Guide to the Galaxy who, for the last fifteen years, has been posing as an out of work actor."
+    "bookUrl" "https://www.goodreads.com/book/show/386162.The_Hitchhiker_s_Guide_to_the_Galaxy" 
+    "bookImage" "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1559986152i/386162.jpg"
+    )}}
+  {{ partial "book.html"
+   (dict "bookTitle" "The Six Habits of Highly Effective Sales Engineers"
+    "bookAuthor" "Chris White"
+    "bookReview" "TECHNICAL SALES ENGINEERS / TECHNICAL PRESALES SUPPORT: In today’s digital economy, software is eating the world, and the companies with the best sales demonstrations are winning the game."
+    "bookUrl" "https://www.goodreads.com/book/show/52233196-the-six-habits-of-highly-effective-sales-engineers" 
+    "bookImage" "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1561130104l/52233196.jpg"
+    )}}
+  {{ partial "book.html"
+   (dict "bookTitle" "The Forever War"
+    "bookAuthor" "Joe Haldeman"
+    "bookReview" "The Earth's leaders have drawn a line in the interstellar sand—despite the fact that the fierce alien enemy that they would oppose is inscrutable, unconquerable, and very far away. A reluctant conscript drafted into an elite Military unit, Private William Mandella has been propelled through space and time to fight in the distant thousand-year conflict; to perform his duties without rancor and even rise up through military ranks. Pvt. Mandella is willing to do whatever it takes to survive the ordeal and return home. But 'home' may be even more terrifying than battle, because, thanks to the time dilation caused by space travel, Mandella is aging months while the Earth he left behind is aging centuries."
+    "bookUrl" "https://www.goodreads.com/book/show/21611.The_Forever_War?from_search=true&from_srp=true&qid=onFCNyRPl6&rank=1" 
+    "bookImage" "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386852511i/21611.jpg"
+    )}}
+  {{ partial "book.html"
+   (dict "bookTitle" "I, Robot"
+    "bookAuthor" "Isaac Asimov"
+    "bookReview" "Isaac Asimov's I, Robot launches readers on an adventure into a not-so-distant future where man and machine , struggle to redefinelife, love, and consciousness—and where the stakes are nothing less than survival. Filled with unforgettable characters, mind-bending speculation, and nonstop action, I, Robot is a powerful reading experience from one of the master storytellers of our time"
+    "bookUrl" "https://www.goodreads.com/book/show/41804.I_Robot" 
+    "bookImage" "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1609035271i/41804.jpg"
+    )}}
 </div>
-<div class="py-4 bg-red-100 transtion">
-  <div x-data="{ open: false }">
-    <button @click="open = ! open">Toggle</button>
- 
-    <div
-        x-show="open"
-        
-        x-transition.scale.origin.top:enter="transition ease-out duration-300"
-        x-transition.scale.origin.top:enter-start="opacity-0 scale-90"
-        x-transition.scale.origin.top:enter-end="opacity-100 scale-100"
-        x-transition:leave="transition ease-in duration-300"
-        x-transition:leave-start="opacity-100 scale-100"
-        x-transition:leave-end="opacity-0 scale-90"
-    >Hello 👋</div>
+<div class=" underline">
+  <h1 class="underline text-base pt-12 text-center">All-time Favourites</h1>
 </div>
-</div>
-<div x-data="{ expanded: false }">
-  <button @click="expanded = ! expanded">Toggle Content</button>
-  <p x-show="expanded" x-collapse>
-    Reprehenderit eu excepteur ullamco esse cillum reprehenderit exercitation labore non. Dolore dolore ea dolore veniam sint in sint ex Lorem ipsum. Sint laborum deserunt deserunt amet voluptate cillum deserunt. Amet nisi pariatur sit ut id. Ipsum est minim est commodo id dolor sint id quis sint Lorem.
-  </p>
-</div>
-</div>
+<div class="container grid grid-cols-1 md:grid-cols-2 md:gap-12 mt-16">
+  <!-- card data, expanded alpine module -->
+  {{ partial "book.html"
+   (dict "bookTitle" "Flowers for Algernon"
+    "bookAuthor" "Daniel Keyes"
+    "bookReview" "The story of a mentally disabled man whose experimental quest for intelligence mirrors that of Algernon, an extraordinary lab mouse. In diary entries, Charlie tells how a brain operation increases his IQ and changes his life. As the experimental procedure takes effect, Charlie's intelligence expands until it surpasses that of the doctors who engineered his metamorphosis. The experiment seems to be a scientific breakthrough of paramount importance until Algernon begins his sudden, unexpected deterioration. Will the same happen to Charlie?"
+    "bookUrl" "https://www.goodreads.com/book/show/18373.Flowers_for_Algernon" 
+    "bookImage" "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1554312314i/18373.jpg"
+    )}}
+  {{ partial "book.html"
+   (dict "bookTitle" "Man's Search for Meaning"
+    "bookAuthor" "Viktor E Frankl"
+    "bookReview" "Psychiatrist Viktor Frankl's memoir has riveted generations of readers with its descriptions of life in Nazi death camps and its lessons for spiritual survival. Based on his own experience and the stories of his patients, Frankl argues that we cannot avoid suffering but we can choose how to cope with it, find meaning in it, and move forward with renewed purpose. At the heart of his theory, known as logotherapy, is a conviction that the primary human drive is not pleasure but the pursuit of what we find meaningful. Man's Search for Meaning has become one of the most influential books in America; it continues to inspire us all to find significance in the very act of living."
+    "bookUrl" "https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning" 
+    "bookImage" "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1535419394i/4069.jpg"
+    )}}
+  {{ partial "book.html"
+   (dict "bookTitle" "Prisoners of Geography: Ten Maps That Tell You Everything You Need to Know About Global Politics"
+    "bookAuthor" "Tim Marshall"
+    "bookReview" "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae architecto consequatur, aspernatur fugiat deserunt corporis est fugit quia hic ullam officia? Provident odio sapiente assumenda? Suscipit nulla quisquam fugit! Beatae."
+    "bookUrl" "https://www.amazon.com/dp/" 
+    "bookImage" "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1559986152i/386162.jpg"
+    )}}
+  {{ partial "book.html"
+   (dict "bookTitle" "Factfulness: Ten Reasons We're Wrong About the World – and Why Things Are Better Than You Think"
+    "bookAuthor" "Hans Rosling"
+    "bookReview" "When asked simple questions about global trends - why the world's population is increasing; how many young women go to school; how many of us live in poverty - we systematically get the answers wrong. So wrong that a chimpanzee choosing answers at random will consistently outguess journalists, Nobel laureates, and investment bankers. In Factfulness, Professor of International Health and a man who can make data sing, Hans Rosling, together with his two long-time collaborators Anna and Ola, offers a radical new explanation of why this happens, and reveals the ten instincts that distort our perspective. It turns out that the world, for all its imperfections, is in a much better state than we might think. But when we worry about everything all the time instead of embracing a worldview based on facts, we can lose our ability to focus on the things that threaten us most. Inspiring and revelatory, filled with lively anecdotes and moving stories, Factfulness is an urgent and essential book that will change the way you see the world."
+    "bookUrl" "https://www.goodreads.com/book/show/34890015-factfulness" 
+    "bookImage" "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1544963815i/34890015.jpg"
+    )}}
 </div>
 {{end}}
