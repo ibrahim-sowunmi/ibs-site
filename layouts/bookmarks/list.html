@@ -1,0 +1,48 @@
+{{define "main"}}
+<div class="">
+  <div class="flex justify-center items-center mx-auto py-8">
+    <div class="prose">
+      <div class="">
+        <h1 class="-mb-2">
+          Bookmarks
+        </h1>
+      </div>
+      <div class="not-prose pt-2">
+        <p>Pages worth visiting at least once</p>
+      </div>
+    </div>
+        
+    </div>
+    <div class=" flex justify-center items-center mx-auto sm:px-2">
+      <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-8 ">
+        {{ range .Pages }}
+          <div class="post-item {{ delimit .Params.tags " " }}">
+            <div class="py-4">
+              <div class="-mb-2">
+                <p class="">{{ .Params.Shorturl }}</p>
+              </div>
+              <div class="prose mb-0">
+                <a rel="noreferrer"
+                target="_blank" href="{{ .Params.Longurl }}">
+                  <h1 class="mb-1 text-2xl">{{ .Params.Title }}</h1>
+                </a>
+              </div>
+              <div class="prose">
+                <p>{{ .Params.Description }}</p>
+              </div>
+              <div class="flex underline">
+              {{ range .Params.Tags }}                
+                  <div class="">
+                    #{{ . }}              
+                  </div>  
+              {{ end }}
+            </div>
+              <p></p>              
+            </div>            
+          </div>
+        {{ end }}
+      </div>
+  </div>
+</div>
+{{end}}
+

@@ -5,6 +5,10 @@ draft: false
 language: en
 description: A test with @tailwindcss/typography & Prose
 type: "bookmarks"
+marks:
+    inspiration: inspiration
+
+
 ---
 
-There is no content here
+content here 
