@@ -27,12 +27,17 @@
                   <h1 class="mb-1 text-2xl">{{ .Params.Title }}</h1>
                 </a>
               </div>
-              <div class="prose">
+              <div class="prose italic">
                 <p>{{ .Params.Description }}</p>
               </div>
+              {{ if .Params.Review }}
+                <div class="prose pt-2">
+                  <p>{{ .Params.Review }}</p>
+                </div>
+              {{ end }}
               <div class="flex underline">
               {{ range .Params.Tags }}                
-                  <div class="">
+                  <div class="pr-2">
                     #{{ . }}              
                   </div>  
               {{ end }}
