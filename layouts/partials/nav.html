@@ -99,7 +99,7 @@ button.addEventListener('click', () => {
   :class="{'h-22': !scrolledFromTop, 'h-10': scrolledFromTop}"
 >
   <a 
-  class="transform origin-left transition duration-200 md:w-full tracking-wider text-3xl" href="{{ .Site.BaseURL }}"
+  class="text-bold transform origin-left transition duration-200 md:w-full tracking-wider text-3xl" href="{{ .Site.BaseURL }}"
   :class="{'scale-100': !scrolledFromTop, 'scale-75': scrolledFromTop}">
     {{ .Site.Title }}
   </a>

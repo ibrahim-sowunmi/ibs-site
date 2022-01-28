@@ -1,14 +1,16 @@
 {{define "main"}}
 
+<div class="container mx-auto">
 <div class="">
-<div class="">
-<h1 class="text-2xl">
+<h1 class=" pt-4 text-2xl">
   {{ .Title }}
 </h1>
 </div>
-<div class="mx-auto">
+<div class="h-full w-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">  
+  
   {{ .Content }}
 </div>
-</div>
-
+<h1 class="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500">
+  Hello, world!
+</h1>
 {{end}}

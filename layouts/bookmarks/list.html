@@ -18,15 +18,15 @@
         {{ range .Pages }}
           <div class="post-item {{ delimit .Params.tags " " }}">
             <div class="py-4">
+              <a rel="noreferrer"
+                target="_blank" href="{{ .Params.Longurl }}">
               <div class="-mb-2">
                 <p class="">{{ .Params.Shorturl }}</p>
               </div>
-              <div class="prose mb-0">
-                <a rel="noreferrer"
-                target="_blank" href="{{ .Params.Longurl }}">
+              <div class="prose mb-0">               
                   <h1 class="mb-1 text-2xl">{{ .Params.Title }}</h1>
-                </a>
               </div>
+              </a>
               <div class="prose italic">
                 <p>{{ .Params.Description }}</p>
               </div>
