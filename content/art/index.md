@@ -7,13 +7,6 @@ description: A test with @tailwindcss/typography & Prose
 type: "art"
 ---
 
-# This page is still very, WIP
-### Hugo wants to misbehave and not let me load the entire gallery
-
-> Click on the button below to see all images on legacy site. New image gallery uses image gallery component
-
-[MORE STUFF CLICK HERE](https://ibrahimsowunmi.com/art)
-
 
 
 {{< article >}}
