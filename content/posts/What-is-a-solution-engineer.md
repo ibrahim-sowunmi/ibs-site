@@ -7,15 +7,15 @@ description: Post describing what the Solution engineer job title means and what
 
 ---
 
-I remember when I received the referral for this role. Final year of my undergraduate and shooting out applications like a gun slinger in a spaghetti western. Solution Engineer (SE). Yeah, it's got engineer in the title, let's go.
+I remember when I received the referral for this role. Final year of my undergraduate and shooting out applications like a gunslinger in a spaghetti western. Solution Engineer (SE). Yeah, it's got engineer in the title, let's go.
 
-First misconception. This is not an engineering role, this is a sales role. One with a technical skew, but this is definitely not traditional engineering. You are primary in sales. You are a Solution Engineer.
+First misconception. This is not an engineering role, this is a sales role. One with a technical skew, but this is not traditional engineering. You are primary in sales. You are a Solution Engineer.
 
 ### What is a Solution Engineer?
 
-The role differs from company to company but I'll attempt to make this write up fairly neutral.
+The role differs from company to company, but I'll attempt to make this write up fairly neutral.
 
-A Solution Engineer. Sometimes called:
+A Solution Engineer, sometimes called:
 
 - Sales/Presales Engineer
 - Sales/Solutions Consultant
@@ -27,7 +27,7 @@ The U.S. Bureau of Labor Statistics (BLS) defines what a Sales/Solutions Enginee
 
 An SE is someone who is at the intersect of product, strategy and operations. They are in "Technical" Sales. They help potential customers understand, from a technical perspective, how the company's (The SEs) product can fit into their company needs. This means taking a bag of tools (Product, Software, Services), and coming up with solution to real business problems.
 
-If you're familiar with hackathons[^2] it's a product specific hackathon centered around certain use cases, in essence.  If the term hackathon is intimidating it is anything but. SEs don't have to be particularly technical. It varies from company to company and even within companies, there's a technical spectrum.
+If you're familiar with hackathons[^2] it's a product-specific hackathon centred around certain use cases, in essence.  If the term hackathon is intimidating it is anything but. SEs don't have to be particularly technical. It varies from company to company and even within companies, there's a technical spectrum.
 
 ### Day in the life?
 
@@ -39,7 +39,7 @@ You talk to clients. In some cases you travel (considerably less after covid I'm
 
 ### Skills needed for the job?
 
-You need to be a solid communicator. Able to actively listen to customers requirements, build a complex solution and simply commmunicated those same requirements back to the customer in a language that they understand and your audience will vary greatly. 
+You need to be a solid communicator. Able to actively listen to customers requirements, build a complex solution and simply commmunicate those same requirements back to the customer in a language that they understand. Your audience will vary greatly in ability to understand. 
 
 ### Don't you have to be a bussin technical programmer?
 
