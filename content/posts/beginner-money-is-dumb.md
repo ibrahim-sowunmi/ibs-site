@@ -25,7 +25,7 @@ TL;DR: [Read this](https://www.bogleheads.org/wiki/Getting_started)
 
 Fundamental analysis is the biggest driver of market returns as most investing is fundamental. If you were to gain a very solid understanding of fundamental analysis, then you would see the BIGGEST returns. Solid due diligence (finance term for research) is where the TRUE hidden gems lay (Think warren buffet).
 
-> *Note: We are in a bull market. A massive bull market. Everyone and their mum is making money off of stocks right now. My barber that can just about read was talking to me about how he is bullish on TESLA the other day. That's never a good sign. Many other ways to make money lmao.[Dollar-cost average](https://www.investopedia.com/terms/d/dollarcostaveraging.asp), and keep a healthy risk appetite.* 
+> Note: We are in a bull market. A massive bull market. Everyone and their mum is making money off of stocks right now. My barber that can just about read was talking to me about how he is bullish on TESLA the other day. That's never a good sign.  [Dollar-cost average](https://www.investopedia.com/terms/d/dollarcostaveraging.asp), and keep a healthy risk appetite.
 
 I would recommend a course on financial reporting (Cash flow statements, balance sheet and income statements). Blitzing through a course on options/greeks, and please please please do general readings about the philosophies of big boy investors. I’m paraphrasing what I’ve read very poorly and in my own words.
 

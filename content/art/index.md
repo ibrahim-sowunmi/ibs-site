@@ -10,7 +10,7 @@ type: "art"
 
 
 {{< article >}}
-These four below are probably my favourites. That being said not a single one of these are completed since they take a long time and my attention span for art fluctuates.
+These four below are probably my favourites. That being said, not a single one of these are completed since they take a long time and my attention span for art.
 {{< /article >}}
 
 {{< gallery match="good/*" sortOrder="asc" rowHeight="400" margins="4" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" loadJQuery=true >}}

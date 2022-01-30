@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://www.ibrahimsowunmi.com/"
 relativeURLs = "True"
 languageCode = 'en-us'
 title = 'Ibrahim Sowunmi'
@@ -8,7 +8,6 @@ disableKinds = ["taxonomy","taxonomyTerm"]
 theme = ["hugo-flex", "hugo-shortcode-gallery" ]
 timeout = 60000
 bookmarksJS = ["js/bookmarks.js"]
-
 
 [menu]
   [[menu.main]]
@@ -40,7 +39,6 @@ bookmarksJS = ["js/bookmarks.js"]
     name = "Photosets"
     url = "/photosets"
     weight = 20
-
 
 
 [sitemap]

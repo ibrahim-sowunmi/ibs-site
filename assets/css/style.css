@@ -1466,6 +1466,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
+
+  .sm\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 @media (min-width: 768px) {
