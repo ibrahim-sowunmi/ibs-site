@@ -22,10 +22,12 @@ Doodles. Messed around with different brushes/styles. Messed around with colour 
 {{< gallery match="doodle/*" sortOrder="asc" rowHeight="250" margins="3" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" loadJQuery=true >}}
 
 {{< article >}}
-Sketches practicing the human form and specific objects
+Sketches practising the human form and specific objects
 {{< /article >}}
 
 {{< gallery match="learn-good/*" sortOrder="asc" rowHeight="300" margins="4" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" loadJQuery=true >}}
 
 
 {{< gallery match="learn/*" sortOrder="asc" rowHeight="250" margins="4" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" loadJQuery=true >}}
+
+{{< gallery match="learn/learn-sub/*" sortOrder="asc" rowHeight="250" margins="4" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" loadJQuery=true >}}

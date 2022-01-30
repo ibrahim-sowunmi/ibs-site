@@ -6,7 +6,7 @@ author = 'Ibrahim Sowunmi'
 paginate = "10" # Number of posts per page
 disableKinds = ["taxonomy","taxonomyTerm"]
 theme = ["hugo-flex", "hugo-shortcode-gallery" ]
-timeout = 1600000 
+timeout = 60000
 bookmarksJS = ["js/bookmarks.js"]
 
 
