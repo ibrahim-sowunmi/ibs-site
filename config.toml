@@ -1,8 +1,9 @@
-baseURL = "https://www.ibrahimsowunmi.com/"
+baseURL = 'https://www.ibrahimsowunmi.com/'
 relativeURLs = "True"
 languageCode = 'en-us'
 title = 'Ibrahim Sowunmi'
 author = 'Ibrahim Sowunmi'
+description = 'Hello and welcome! A site by Ibs about Ibs, so you can'
 paginate = "10" # Number of posts per page
 disableKinds = ["taxonomy","taxonomyTerm"]
 theme = ["hugo-flex", "hugo-shortcode-gallery" ]
