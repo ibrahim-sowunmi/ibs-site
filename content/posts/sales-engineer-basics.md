@@ -1,10 +1,10 @@
 ---
-title: "The Six Habits of Highly succesfull engineer"
+title: "The Six Habits of a Highly Effective Solution Engineer"
 date: 2021-01-10T11:10:36+08:00
 draft: true
 language: en
 description: The OG blog post and the beginning for ibrahimsowunmi.com
-
+keywords: ["Solution", "engineer", "salesforce"]
 ---
 
 >  This is essentially a book summary I wrote up with a sprinkling. of my own notes

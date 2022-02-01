@@ -3,8 +3,8 @@ title: "A Hugo and TailwindCSS3 boilerplate"
 date: 2022-01-30T11:10:36+08:00
 draft: false
 language: en
-description: Pretty self explanatory
-
+description: A hugo and TailwindCSS3 boilerplate for people that are stuck.
+keywords: ["Hugo", "Tailwind", "TailwindCSS3", "Boilerplate", "Stuck", "Typography", "Prose"]
 
 ---
 

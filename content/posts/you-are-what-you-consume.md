@@ -3,8 +3,7 @@ title: "You are what you consume"
 date: 2021-10-31T11:10:36+08:00
 draft: false
 language: en
-description: The OG blog post and the beginning for ibrahimsowunmi.com
-keywords:
+description: You are what you eat and you are what you consume!
 Tags: ["personal"]
 ---
 

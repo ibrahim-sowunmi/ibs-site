@@ -4,7 +4,7 @@ date: 2021-11-12T11:10:36+08:00
 draft: false
 language: en
 description: Post describing what the Solution engineer job title means and what the job role entails.
-
+keywords: ["Solution", "Engineer", "Salesforce"]
 ---
 
 I remember when I received the referral for this role. Final year of my undergraduate and shooting out applications like a gunslinger in a spaghetti western. Solution Engineer (SE). Yeah, it's got engineer in the title, let's go.

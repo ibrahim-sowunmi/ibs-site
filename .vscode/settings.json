@@ -1,0 +1,23 @@
+{
+    "grammarly.overrides": [
+        {
+            "files": [
+                "**/content/posts/What-is-a-solution-engineer.md"
+            ],
+            "config": {
+                "audience": "general",
+                "dialect": "british",
+                "domain": "general",
+                "emotions": [
+                    "confident",
+                    "joyful",
+                    "analytical"
+                ],
+                "goals": [
+                    "inform",
+                    "describe"
+                ]
+            }
+        }
+    ]
+}

@@ -4,6 +4,7 @@ date: 2022-01-10T11:10:36+08:00
 draft: false
 language: en
 description: The OG blog post and the beginning for ibrahimsowunmi.com
+keywords: ["Twitter"]
 ---
 
 I don’t like social media. Never been a fan of it. Don’t think I ever will be. Even when I'm enjoying myself I hate how addictive and non-value additive it is.
