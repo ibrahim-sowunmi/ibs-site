@@ -6,6 +6,7 @@ author = 'Ibrahim Sowunmi'
 description = 'Hello and welcome! A site by Ibs about Ibs, so get to know me with minimal effort'
 paginate = "10" # Number of posts per page
 theme = ["hugo-flex", "hugo-shortcode-gallery" ]
+disableKinds = ["taxonomy","taxonomyTerm"]
 timeout = 60000
 bookmarksJS = ["js/bookmarks.js"]
 
