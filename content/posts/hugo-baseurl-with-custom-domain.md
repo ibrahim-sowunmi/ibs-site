@@ -4,6 +4,8 @@ date: 2021-10-04T11:10:36+08:00
 draft: True
 language: en
 description: The OG blog post and the beginning for ibrahimsowunmi.com
+categories: ['How to']
+tags: ['Tutorial', 'Hugo', 'Programming']
 ---
 
 my experience 

@@ -5,6 +5,7 @@ draft: false
 language: en
 description: A bit of financial advice by a student with a little bit of change in his pockets
 Tags: ["finance"]
+keywords: []
 ---
 
 >  Disclaimer: Genuinely wrapping your head around this stuff is a pretty high energy pursuit. I have a rough idea.

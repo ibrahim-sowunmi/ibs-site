@@ -18,7 +18,7 @@
         <li>
           <a href="{{ if $.Scratch.Get "previous" }}{{ $.Scratch.Get "previous" }} {{ end }}" class="{{ if not ($.Scratch.Get "previous") }}disabled {{ end }}button big previous">
             <div class="pt-4">
-              <button class="w-full md:w-40 py-2 px-4 no-underline rounded-full border border-gray-200 transition duration-150 text-gray font-thin text-sm  btn-primary hover:text-white hover:border-black hover:bg-black focus:outline-none  ">
+              <button type="button" aria-label="previous" class="w-full md:w-40 py-2 px-4 no-underline rounded-full border border-gray-200 transition duration-150 text-gray font-thin text-sm  btn-primary hover:text-white hover:border-black hover:bg-black focus:outline-none  ">
                 {{ partial "fontawesome.html" "arrow-left" }} Previous 
               </button>
             </div>
@@ -27,7 +27,7 @@
         <li>
           <a href="{{ if $.Scratch.Get "next" }}{{ $.Scratch.Get "next" }} {{ end }}" class="{{ if not ($.Scratch.Get "next") }}disabled {{ end }}button big next">
             <div class="w-full pt-4">
-              <button class="w-full md:w-40 py-2 px-4 no-underline rounded-full border border-gray-200 transition duration-150 text-gray font-thin text-sm btn-primary hover:text-white hover:border-black hover:bg-black focus:outline-none  ">
+              <button type="button" aria-label="next" class="w-full md:w-40 py-2 px-4 no-underline rounded-full border border-gray-200 transition duration-150 text-gray font-thin text-sm btn-primary hover:text-white hover:border-black hover:bg-black focus:outline-none  ">
                 Next {{ partial "fontawesome.html" "arrow-right" }}
               </button>
             </div>

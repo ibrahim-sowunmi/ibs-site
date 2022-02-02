@@ -5,6 +5,8 @@ draft: false
 language: en
 description: A hugo and TailwindCSS3 boilerplate for people that are stuck.
 keywords: ["Hugo", "Tailwind", "TailwindCSS3", "Boilerplate", "Stuck", "Typography", "Prose"]
+categories: ['How to']
+tags: ['Tutorial', 'Hugo', 'Tailwind', 'Programming']
 
 ---
 

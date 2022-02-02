@@ -6,9 +6,7 @@ language: en
 description: The OG blog post and the beginning for ibrahimsowunmi.com
 ---
 
----
-
-I have a problem. After building this website I wanted it to be google’able. I want someone to be able type my name and that very first link to be my personal site. As it currently stands, I don’t even come up in the first 10 links and my link actually comes up on the second bloody page! (95% of traffic is on the first page).
+I have a problem. After building this website I wanted it to be googleable. I want someone to be able type my name and that very first link to be my personal site. As it currently stands, I don’t even come up in the first 10 links and my link actually comes up on the second bloody page! (95% of traffic is on the first page).
 
 {{< figure src="https://github.com/ibrahim-sowunmi/personal-site/blob/main/src/assets/blog/blog2/blog2-1.png?raw=true" alt="My site being SEO'd on google">}}
 

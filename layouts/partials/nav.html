@@ -104,7 +104,7 @@ button.addEventListener('click', () => {
     {{ .Site.Title }}
   </a>
   <nav>
-     <button class="md:hidden" @click="navOpen = !navOpen">
+     <button type="button" aria-label="mobile-menu" class="md:hidden" @click="navOpen = !navOpen">
         <svg
            xmlns="http://www.w3.org/2000/svg"
            class="h-8 w-8 text-black"
