@@ -1,39 +1,43 @@
 {{define "main"}}
 
-<div class="container mx-auto text-center w-full ">
-  Currently reading The origins of political order by Francis Fukuyama
+<br><br>
+<div class="md:py-0 md:flex h-24 justify-between text-bold items-center border-b-2 border-gray-100">
+  <div class="container mx-auto text-center w-full ">
+  Currently reading - 	
+  The Personal MBA: Master the Art of Business by Josh Kaufman
+</div>
 </div>
 <div class="container mx-auto">
   <h1 class=" underline text-base pt-12">Recently Read</h1>
   <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 md:gap-12 mt-16">
     <!-- card data, expanded alpine module -->
     {{ partial "book.html"
-    (dict "bookTitle" "The Hitchhiker's Guide to the Galaxy"
-      "bookAuthor" "Douglas Adams"
-      "bookReview" "Seconds before the Earth is demolished to make way for a galactic freeway, Arthur Dent is plucked off the planet by his friend Ford Prefect, a researcher for the revised edition of the The Hitch Hiker's Guide to the Galaxy who, for the last fifteen years, has been posing as an out of work actor."
-      "bookUrl" "https://www.goodreads.com/book/show/386162.The_Hitchhiker_s_Guide_to_the_Galaxy" 
-      "bookImage" "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1559986152i/386162.jpg"
+    (dict "bookTitle" "Digital Minimalism: Choosing a Focused Life in a Noisy World"
+      "bookAuthor" "Cal Newport"
+      "bookReview" "Minimalism is the art of knowing how much is just enough. Digital minimalism applies this idea to our personal technology. It's the key to living a focused life in an increasingly noisy world."
+      "bookUrl" "https://www.goodreads.com/book/show/40672036-digital-minimalism" 
+      "bookImage" "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1549433350i/40672036.jpg"
       )}}
     {{ partial "book.html"
-    (dict "bookTitle" "The Six Habits of Highly Effective Sales Engineers"
-      "bookAuthor" "Chris White"
-      "bookReview" "TECHNICAL SALES ENGINEERS / TECHNICAL PRESALES SUPPORT: In today’s digital economy, software is eating the world, and the companies with the best sales demonstrations are winning the game."
-      "bookUrl" "https://www.goodreads.com/book/show/52233196-the-six-habits-of-highly-effective-sales-engineers" 
-      "bookImage" "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1561130104l/52233196.jpg"
+    (dict "bookTitle" "The Chrysalids"
+      "bookAuthor" "John Wyndham"
+      "bookReview" "John Wyndham takes the reader into the anguished heart of a community where the chances of breeding true are less than fifty per cent and where deviations are rooted out and destroyed as offences and abominations"
+      "bookUrl" "https://www.goodreads.com/book/show/826845.The_Chrysalids" 
+      "bookImage" "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1271095852i/826845.jpg"
       )}}
     {{ partial "book.html"
-    (dict "bookTitle" "The Forever War"
-      "bookAuthor" "Joe Haldeman"
-      "bookReview" "The Earth's leaders have drawn a line in the interstellar sand—despite the fact that the fierce alien enemy that they would oppose is inscrutable, unconquerable, and very far away. A reluctant conscript drafted into an elite Military unit, Private William Mandella has been propelled through space and time to fight in the distant thousand-year conflict; to perform his duties without rancor and even rise up through military ranks. Pvt. Mandella is willing to do whatever it takes to survive the ordeal and return home. But 'home' may be even more terrifying than battle, because, thanks to the time dilation caused by space travel, Mandella is aging months while the Earth he left behind is aging centuries."
-      "bookUrl" "https://www.goodreads.com/book/show/21611.The_Forever_War?from_search=true&from_srp=true&qid=onFCNyRPl6&rank=1" 
-      "bookImage" "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386852511i/21611.jpg"
+    (dict "bookTitle" "Black Box Thinking: Why Some People Never Learn from Their Mistakes - But Some Do"
+      "bookAuthor" "Matthew Syed"
+      "bookReview" "An eye-opening, Gladwellian look at the power of a positive attitude toward failure and its profound impact on our success in any field."
+      "bookUrl" "https://www.goodreads.com/book/show/24611735-black-box-thinking" 
+      "bookImage" "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442833652i/24611735.jpg"
       )}}
     {{ partial "book.html"
-    (dict "bookTitle" "I, Robot"
-      "bookAuthor" "Isaac Asimov"
-      "bookReview" "Isaac Asimov's I, Robot launches readers on an adventure into a not-so-distant future where man and machine , struggle to redefinelife, love, and consciousness—and where the stakes are nothing less than survival. Filled with unforgettable characters, mind-bending speculation, and nonstop action, I, Robot is a powerful reading experience from one of the master storytellers of our time"
-      "bookUrl" "https://www.goodreads.com/book/show/41804.I_Robot" 
-      "bookImage" "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1609035271i/41804.jpg"
+    (dict "bookTitle" "Project Hail Mary"
+      "bookAuthor" "Andy Weir"
+      "bookReview" "Ryland Grace is the sole survivor on a desperate, last-chance mission—and if he fails, humanity and the Earth itself will perish."
+      "bookUrl" "Ryland Grace is the sole survivor on a desperate, last-chance mission—and if he fails, humanity and the Earth itself will perish." 
+      "bookImage" "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1597695864i/54493401.jpg"
       )}}
   </div>
   <div class=" underline">
@@ -74,7 +78,7 @@
 <div class="container mx-auto w-full ">
   <a rel="noreferrer" target="_blank" href="https://www.goodreads.com/review/list/91646908-ibrahim-sowunmi?utf8=%E2%9C%93&utf8=%E2%9C%93&ref=nav_mybooks&shelf=read&title=ibrahim-sowunmi&per_page=infinite">
     <div class="pt-4 ">
-      <p class="underline">Visit my Goodreads profile for more.</p>
+      <p class="underline">Visit my Goodreads profile for more</p>
     </div>
   </a>
 </div>
@@ -89,6 +93,6 @@
 </div>
 <div class="container flex pt-8 mx-auto text-right">
   <hr class="pt-2">
-  <p class="text-center text-sm text-gray-300 w-full">Last updated on January 14th, 2022</p>
+  <p class="text-center text-sm text-gray-300 w-full">Last updated on July 14th, 2022</p>
 </div>
 {{end}}
