@@ -1,6 +1,6 @@
 ---
 title: "Simply Conceptualising CRM"
-date: 2022-04-1T11:10:36+08:00
+date: 2022-04-11T11:10:36+08:00
 draft: false
 language: en
 description: My attempt at explaining salesforce as simply as possible
