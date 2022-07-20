@@ -4,7 +4,7 @@ date: 2021-01-04T11:10:36+08:00
 draft: false
 language: en
 description: The OG blog post and the beginning for ibrahimsowunmi.com
-summary: I've decided to start blogging, kind of. I intially wrote this during my final year of university. As of today 2022-1-11, I'm rebuilding this site. It starteed out with the intention of being a blog/CV and now it's a hobby project. Continue reading for a throwback to my original thought process. A year later and it already makes me cringe slightly despite there being little to no change in me. :/ 
+summary: I've decided to start blogging, kind of. I intially wrote this during my final year of university. As of today 2022-1-11, I'm rebuilding this site. It started out with the intention of being a blog/CV and now it's a hobby project. Continue reading for a throwback to my original thought process. A year later and it already makes me cringe slightly despite there being little to no change in me. :/ 
 Tags: ["personal"]
 ---
 
